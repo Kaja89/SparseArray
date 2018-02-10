@@ -30,9 +30,9 @@ class SparseList<T> extends AbstractList<T>{
 		
 		for(int i = 0; i<sparse.length; i++) {
 			
-			if(sparse[index][0] == null) {
+			if(sparse[i][0] == null) {
 				sparse[i][0] = index;
-				sparse[index][1] = element;
+				sparse[i][1] = element;
 				break;
 			}
 		}
